@@ -37,7 +37,7 @@ Outputs:
       - WebsiteURL
     Description: URL for website hosted on S3
   S3BucketSecureURL:
-    Value: !Join 
+   Value: !Join 
       - ''
       - - 'https://'
         - !GetAtt 
